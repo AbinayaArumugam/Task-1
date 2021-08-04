@@ -8,7 +8,8 @@ public class ReverseArray {
 		}
 		System.out.println();
 		System.out.println("Reversed Array:");
-		for(int i= arr12.length-1;i>=0;i--) 
+		for(int i= arr12.length-1;i>=0;i--) {
 			System.out.print(arr12[i] + " ");
+		}
 	}
 }

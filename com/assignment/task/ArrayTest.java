@@ -9,9 +9,11 @@ public class ArrayTest {
 				  break;
 			  }
 			 }
-		  if(test)
+		  if(test) {
 			  System.out.println("Array contains : " + elementToFind);
-		  else
+		  }
+		  else {
 			  System.out.println("Array does not contains : " + elementToFind);
+		  }
 		  }
 }

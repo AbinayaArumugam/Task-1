@@ -8,10 +8,12 @@ public class Index {
 		}
 		int i =0;
 			while(i<arr.length)  {
-		        if(arr[i]==data)  
-			        return i;
-		        else
-		        	i=i+1;
+		        if(arr[i]==data) {
+					return i;
+				}
+		        else {
+					i = i + 1;
+				}
 			  }
 		return -1;
 	}
